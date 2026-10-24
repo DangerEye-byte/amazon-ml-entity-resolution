@@ -1,0 +1,16 @@
+# Python 3.13 (tested with 3.13.5)
+numpy==2.3.1
+pandas==2.3.1
+pyarrow==25.0.1
+scipy==1.16.1
+rapidfuzz==3.14.6
+Unidecode==1.4.0
+lightgbm==4.7.0
+# Transformer stages (src/colab_dense.py, src/colab_ce.py). These versions pass smoke_test.sh on CPU; the GPU runs
+# used the torch/transformers preinstalled on Google Colab in September 2026. For CUDA, install the torch wheel that
+# matches your driver (https://pytorch.org/get-started/locally/).
+torch==2.13.0
+transformers==5.14.1
+tokenizers==0.22.2
+sentencepiece==0.2.2
+safetensors==0.8.0

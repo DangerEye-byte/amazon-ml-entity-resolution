@@ -1,0 +1,9 @@
+{
+  "training_s1_rows_seen": 1000,
+  "training_pairs_saved": 7612,
+  "positive_pairs": 0,
+  "trained_superbatches": 1,
+  "feature_count": 38,
+  "training_seconds": 73.5791482925415,
+  "model": "models/model.txt"
+}
